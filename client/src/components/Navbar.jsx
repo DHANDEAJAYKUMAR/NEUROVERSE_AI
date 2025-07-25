@@ -56,7 +56,6 @@ const Navbar = () => {
               <X className="w-6 h-6" />
             </button>
 
-            {/* Embedded Google Drive Video using iframe */}
             <iframe
               src="https://drive.google.com/file/d/1XCuUwn24CenQydvDWCmekKhsERpMIKEd/preview"
               allow="autoplay"
