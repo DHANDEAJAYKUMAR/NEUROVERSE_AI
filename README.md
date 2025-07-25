@@ -79,7 +79,7 @@ npm run dev
 ```
 cd server
 npm init -y
-npm run dev
+npm run server
 ```
 **Note**: Create a .env file in the root directory with the following:
 
