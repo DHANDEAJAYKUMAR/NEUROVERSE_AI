@@ -1,4 +1,4 @@
-# Neuroverse AI: Intelligence SaaS Platform
+# NeuroVerse AI: Intelligence SaaS Platform
 
 A full-stack AI-powered SaaS platform that offers a suite of intelligent tools
 like article generation, AI image creation, resume analysis, and more. 
@@ -78,7 +78,7 @@ npm run dev
 **Backend Setup**
 ```
 cd server
-npm install
+npm init -y
 npm run dev
 ```
 **Note**: Create a .env file in the root directory with the following:
