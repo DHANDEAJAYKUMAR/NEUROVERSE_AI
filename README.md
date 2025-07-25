@@ -66,17 +66,17 @@ Built using the **PERN Stack** with secure authentication and subscription billi
 ### Clone the Repository
 
 git clone https://github.com/DHANDEAJAYKUMAR/NEUROVERSE_AI.git
-```
+
 cd NEUROVERSE_AI
 
-Frontend Setup
-
+**Frontend Setup**
+```
 cd client
 npm install
 npm run dev
-
-Backend Setup
-
+```
+**Backend Setup**
+```
 cd server
 npm install
 npm run dev
