@@ -65,16 +65,25 @@ Built using the **PERN Stack** with secure authentication and subscription billi
 
 ### Clone the Repository
 
+git clone https://github.com/DHANDEAJAYKUMAR/NEUROVERSE_AI.git
 ```
-git clone https://github.com/DHANDEAJAYKUMAR/NEUROVERSE_AI.git 
 cd NEUROVERSE_AI
+
+Frontend Setup
+
+cd client
+npm install
+npm run dev
 
 Backend Setup
 
+cd server
 npm install
 npm run dev
- Note: Create a .env file in the root directory with the following:
+```
+**Note**: Create a .env file in the root directory with the following:
 
+```
 CLERK_SECRET_KEY=your_clerk_secret
 OPENAI_API_KEY=your_openai_key
 REPLICATE_API_TOKEN=your_replicate_token
@@ -93,7 +102,7 @@ DATABASE_URL=your_neon_postgres_url
 
 
 ## Project Structure
-
+```
 ├──  client/                 → [Frontend Code - React App]
 │   ├── node_modules/       → [Frontend dependencies]
 │   ├──  public/             → [Static files like index.html, icons]
@@ -122,7 +131,7 @@ DATABASE_URL=your_neon_postgres_url
 │   ├── package-lock.json     → [Locked backend versions] 
 │   ├── vercel.json           → [Vercel deployment config] 
 
-
+```
 
 
 
